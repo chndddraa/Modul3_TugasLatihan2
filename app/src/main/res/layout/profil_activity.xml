@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ProfilActivity">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:text="Our Profile"
+        android:textSize="30sp"
+        android:fontFamily="casual"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_marginLeft="15dp"
+        android:text="      Kayy Gaming Store adalah perusahaan yang didirikan oleh Andhika Chandra R (1227070017) yang bergerak di bidang penyediaan game digital, perangkat gaming, dan aksesori untuk para gamer di seluruh dunia."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+        android:text="      Didirikan dengan visi untuk menjadi destinasi utama bagi para pecinta game, kami menghadirkan pengalaman berbelanja yang cepat, aman, dan terpercaya." />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+        android:text="      Dengan dukungan tim yang berpengalaman di industri game, kami berkomitmen untuk memberikan produk berkualitas tinggi dan layanan pelanggan terbaik." />
+
+</LinearLayout>

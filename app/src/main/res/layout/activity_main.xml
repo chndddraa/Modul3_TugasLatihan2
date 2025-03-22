@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="Kayy Game Center"
+        android:fontFamily="cursive"
+        android:textColor="#045CA4"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="125dp"
+        android:layout_gravity="center_vertical"
+        android:background="#033154"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Dashboard"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btProfile"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="130dp"
+        android:text="Profile"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btAbout"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="About Us"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btCall"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Call Center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:gravity="center"
+        android:text="Andhika Chandra R / 1227070017"
+        android:textStyle="italic"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="💥 Kayy Gaming Store – Gaming Made Better! 🚀🎮"
+        android:textStyle="italic" />
+
+</LinearLayout>
